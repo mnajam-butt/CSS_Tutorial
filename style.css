@@ -1,12 +1,28 @@
+body{
+  text-align: center;
+}
 div{
   height: 100px;
   width: 100px;
-  background-color: antiquewhite;
-  background-image: url(najam.jpg);
-  background-size: cover;
-  color: #0db471;
-  position: fixed;
-  right: 0px;
-  top: 50px;
-
+  display: inline-block;
+  border: 2px solid black;
+}
+#container{
+  width: 800px;
+  height: 200px;
+}
+#Box1{
+  background-color: aqua;
+}
+#Box2{
+  background-color: rgb(26, 91, 68);
+}
+#Box3{
+  background-color: rgb(251, 0, 255);
+}
+#Box4{
+  background-color: rgba(255, 0, 217, 0.335);
+}
+#Box5{
+  background-color: rgba(85, 134, 17, 0.73);
 }
