@@ -12,7 +12,7 @@ div{
   height: 200px;
   /* Bydefault used row property */
   display: flex;  
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
 }
 #Box1{
   background-color: aqua;
