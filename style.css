@@ -1,26 +1,23 @@
 div{
-  height: 200px;
-  width: 300px;
-  background-color: red;
+  height: 150px;
+  width: 150px;
+  background-color: paleturquoise;
+  border: 3px solid rgba(5, 196, 202, 0.893);
+
+  /* transition: all;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-delay:0.5s; */
+  transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s ;
 }
-@media (max-width:300px){ 
-  div{
-    background-color: aqua;
-  }
+
+div:hover{
+  background-color: blanchedalmond;
+  color: blueviolet;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
 }
-@media (min-width:300px) and (max-width:400px){
-  div{
-    background-color: rgb(140, 0, 255);
-  }
-}
-@media (min-width:400px) and (max-width:600px){
-  div{
-    background-color: rgb(0, 255, 4);
-  }
-}
-  
-@media (min-width:600px){
-  div{
-    background-color: rgb(255, 238, 0);
-  }
+div:active{
+  background-color: rgb(255, 127, 150);
 }
