@@ -12,10 +12,22 @@ div{
  animation-delay: 1s;
  animation-iteration-count: 5;
 animation-direction: alternate-reverse; /*  four property (normal, reverse, alternate, alternate-reverse) */
-animation: colorAnimate 3s ease-in 0.5s infinite alternate ;
+animation: colorAnimate 5s ease-in 0.5s infinite alternate ;
 } 
 
 @keyframes colorAnimate {
-  from { left: 0px;}
-  to { left: 100px; }
+  0% {
+     left: 0px;
+    background-color: bisque;
+    color: black;
+    }
+50%{
+  background-color: black;
+  color: white;
+}
+  100% {
+     left: 100px;
+    background-color: brown;
+    color: cadetblue;
+    }
 }
