@@ -8,18 +8,20 @@ div{
   left: 100px;
 
   /* transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s ;
-     transform: rotate(180deg);  /* 2D & 3D transformations */
+  transform: rotate(180deg);  /* 2D & 3D transformations */
   /* rotate: z 90deg;     rotate through x-axis , y-axis, z-axis */ 
+  transition: all 3.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 
 }
 
 div:hover{
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond;
   color: blueviolet;
   font-style: italic;
   font-size: 20px;
   text-align: center;
-    transform:scale(2) ;
+ transform:scale(2) ; */
+ transform: translate(400px, 250px);
 }
 div:active{
   background-color: rgb(255, 127, 150);
