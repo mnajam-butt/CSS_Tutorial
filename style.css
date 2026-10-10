@@ -1,33 +1,16 @@
-div{
+.loder{
   height: 150px;
   width: 150px;
-  background-color: paleturquoise;
-  border: 3px solid rgba(5, 196, 202, 0.893);
-  position: absolute;
-  top: 100px;
-  left: 100px;
- /* animation-name: colorAnimate;
- animation-duration: 3s;
- animation-timing-function:ease-in ;
- animation-delay: 1s;
- animation-iteration-count: 5;
-animation-direction: alternate-reverse; /*  four property (normal, reverse, alternate, alternate-reverse) */
-animation: colorAnimate 5s ease-in 0.5s infinite alternate ;
-} 
-
-@keyframes colorAnimate {
-  0% {
-     left: 0px;
-    background-color: bisque;
-    color: black;
-    }
-50%{
-  background-color: black;
-  color: white;
+  border-radius: 50%;
+  border: 20px solid #359FA0;
+  border-left: 20px solid #8AD6D1;
+  animation: rotateAnimate 1s ease-in-out 0.1ms infinite normal;
 }
-  100% {
-     left: 100px;
-    background-color: brown;
-    color: cadetblue;
-    }
+@keyframes rotateAnimate {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
